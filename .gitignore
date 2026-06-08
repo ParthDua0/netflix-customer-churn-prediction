@@ -1,0 +1,13 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the raw data file (Kaggle datasets shouldn't be hosted raw if they are large)
+netflix_customer_churn.csv
+
+# Ignore large serialized model files
+*.pkl
